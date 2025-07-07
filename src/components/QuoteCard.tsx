@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import toast from "react-hot-toast";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Search } from "lucide-react";
-import { Sparkles } from "lucide-react";
+import { Sparkles, Search } from "lucide-react";
 
 type Quote = {
   text: string;
@@ -342,6 +341,7 @@ const quotes: Quote[] = [
     author: "Walt Disney",
   },
 ];
+
 export default function QuoteCard() {
   const [quote, setQuote] = useState<Quote>({ text: "", author: "" });
   const [search, setSearch] = useState("");
@@ -372,6 +372,7 @@ export default function QuoteCard() {
 
   return (
     <>
+      {/* Breadcrumb */}
       <div className="text-sm text-muted-foreground mb-6 flex items-center space-x-2 mt-5 ml-4">
         <span className="hover:underline cursor-pointer text-primary">
           Home
@@ -391,7 +392,7 @@ export default function QuoteCard() {
           with a single click.
         </p>
 
-        {/* Highlighted Info Card */}
+        {/* Info Card */}
         <Card className="border-blue-400 mb-6">
           <CardContent className="p-3 flex items-center space-x-4">
             <Sparkles className="text-purple-500" />
@@ -416,7 +417,7 @@ export default function QuoteCard() {
           />
         </div>
 
-        {/* Display Filtered Quotes or Random */}
+        {/* Conditional Rendering */}
         {search.length > 0 ? (
           filteredQuotes.length > 0 ? (
             <div className="grid gap-4">
@@ -451,7 +452,7 @@ export default function QuoteCard() {
                 onClick={getRandomQuote}
                 className="bg-purple-600 hover:bg-purple-700 text-white"
               >
-                Generate Quotes
+                Generate Quote
               </Button>
               <Button
                 onClick={copyQuoteToClipboard}
