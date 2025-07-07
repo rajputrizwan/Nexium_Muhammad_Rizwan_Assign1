@@ -11,362 +11,38 @@ type Quote = {
   author: string;
 };
 
-const quotes: Quote[] = [
-  {
-    text: "Dont watch the clock; do what it does. Keep going.",
-    author: "Rumi",
-  },
-  {
-    text: "It always seems impossible until its done.",
-    author: "Stephen Hawking",
-  },
-  {
-    text: "Hardships often prepare ordinary people for an extraordinary destiny.",
-    author: "Bill Gates",
-  },
-  { text: "Try to be a rainbow in someones cloud.", author: "Elon Musk" },
-  {
-    text: "Act as if what you do makes a difference. It does.",
-    author: "Aristotle",
-  },
-  {
-    text: "It always seems impossible until its done.",
-    author: "Abraham Lincoln",
-  },
-  {
-    text: "The future belongs to those who believe in the beauty of their dreams.",
-    author: "Steve Jobs",
-  },
-  {
-    text: "It always seems impossible until its done.",
-    author: "Albert Einstein",
-  },
-  {
-    text: "In the middle of difficulty lies opportunity.",
-    author: "Leonardo da Vinci",
-  },
-  {
-    text: "Keep your face always toward the sunshine—and shadows will fall behind you.",
-    author: "Mother Teresa",
-  },
-  {
-    text: "It is never too late to be what you might have been.",
-    author: "Albert Einstein",
-  },
-  {
-    text: "What you get by achieving your goals is not as important as what you become.",
-    author: "Mark Twain",
-  },
-  {
-    text: "Life is short, and it is up to you to make it sweet.",
-    author: "Stephen Hawking",
-  },
-  {
-    text: "In the middle of difficulty lies opportunity.",
-    author: "Steve Jobs",
-  },
-  {
-    text: "You must be the change you wish to see in the world.",
-    author: "Barack Obama",
-  },
-  {
-    text: "Act as if what you do makes a difference. It does.",
-    author: "Albert Einstein",
-  },
-  {
-    text: "Hardships often prepare ordinary people for an extraordinary destiny.",
-    author: "Marie Curie",
-  },
-  { text: "The best revenge is massive success.", author: "Mark Twain" },
-  {
-    text: "Hardships often prepare ordinary people for an extraordinary destiny.",
-    author: "Leonardo da Vinci",
-  },
-  {
-    text: "The only way to do great work is to love what you do.",
-    author: "Abraham Lincoln",
-  },
-  {
-    text: "Believe you can and youre halfway there.",
-    author: "Nelson Mandela",
-  },
-  {
-    text: "The only way to do great work is to love what you do.",
-    author: "Aristotle",
-  },
-  {
-    text: "You must be the change you wish to see in the world.",
-    author: "Marie Curie",
-  },
-  {
-    text: "Dont watch the clock; do what it does. Keep going.",
-    author: "Isaac Newton",
-  },
-  {
-    text: "Believe you can and youre halfway there.",
-    author: "Socrates",
-  },
-  { text: "The best revenge is massive success.", author: "Benjamin Franklin" },
-  {
-    text: "Success is not the key to happiness. Happiness is the key to success.",
-    author: "Steve Jobs",
-  },
-  {
-    text: "It is never too late to be what you might have been.",
-    author: "Oprah Winfrey",
-  },
-  {
-    text: "In the middle of difficulty lies opportunity.",
-    author: "Mother Teresa",
-  },
-  {
-    text: "Act as if what you do makes a difference. It does.",
-    author: "Isaac Newton",
-  },
-  {
-    text: "Be yourself; everyone else is already taken.",
-    author: "Marie Curie",
-  },
-  {
-    text: "It is never too late to be what you might have been.",
-    author: "Benjamin Franklin",
-  },
-  {
-    text: "Success usually comes to those who are too busy to be looking for it.",
-    author: "Confucius",
-  },
-  {
-    text: "Be yourself; everyone else is already taken.",
-    author: "Mother Teresa",
-  },
-  {
-    text: "Be yourself; everyone else is already taken.",
-    author: "Thomas Edison",
-  },
-  { text: "The best revenge is massive success.", author: "Stephen Hawking" },
-  { text: "Turn your wounds into wisdom.", author: "J.K. Rowling" },
-  {
-    text: "Hardships often prepare ordinary people for an extraordinary destiny.",
-    author: "Aristotle",
-  },
-  {
-    text: "Life is short, and it is up to you to make it sweet.",
-    author: "Buddha",
-  },
-  { text: "Turn your wounds into wisdom.", author: "Steve Jobs" },
-  {
-    text: "Success usually comes to those who are too busy to be looking for it.",
-    author: "Socrates",
-  },
-  {
-    text: "Success usually comes to those who are too busy to be looking for it.",
-    author: "Marie Curie",
-  },
-  {
-    text: "In the middle of difficulty lies opportunity.",
-    author: "Aristotle",
-  },
-  { text: "The best revenge is massive success.", author: "Thomas Edison" },
-  {
-    text: "Life is short, and it is up to you to make it sweet.",
-    author: "Barack Obama",
-  },
-  {
-    text: "Believe you can and youre halfway there.",
-    author: "Albert Einstein",
-  },
-  {
-    text: "The future belongs to those who believe in the beauty of their dreams.",
-    author: "Walt Disney",
-  },
-  {
-    text: "The only way to do great work is to love what you do.",
-    author: "Elon Musk",
-  },
-  { text: "Turn your wounds into wisdom.", author: "Maya Angelou" },
-  {
-    text: "It always seems impossible until its done.",
-    author: "Aristotle",
-  },
-  { text: "The best revenge is massive success.", author: "Steve Jobs" },
-  {
-    text: "Keep your face always toward the sunshine—and shadows will fall behind you.",
-    author: "Bill Gates",
-  },
-  {
-    text: "In the middle of difficulty lies opportunity.",
-    author: "Maya Angelou",
-  },
-  {
-    text: "Keep your face always toward the sunshine—and shadows will fall behind you.",
-    author: "Walt Disney",
-  },
-  {
-    text: "Life is short, and it is up to you to make it sweet.",
-    author: "Steve Jobs",
-  },
-  {
-    text: "The future belongs to those who believe in the beauty of their dreams.",
-    author: "Nelson Mandela",
-  },
-  {
-    text: "Be yourself; everyone else is already taken.",
-    author: "J.K. Rowling",
-  },
-  {
-    text: "You must be the change you wish to see in the world.",
-    author: "Mother Teresa",
-  },
-  {
-    text: "Dont watch the clock; do what it does. Keep going.",
-    author: "Bill Gates",
-  },
-  { text: "The best revenge is massive success.", author: "Walt Disney" },
-  {
-    text: "Success usually comes to those who are too busy to be looking for it.",
-    author: "Steve Jobs",
-  },
-  {
-    text: "Keep your face always toward the sunshine—and shadows will fall behind you.",
-    author: "Aristotle",
-  },
-  {
-    text: "In the middle of difficulty lies opportunity.",
-    author: "Mother Teresa",
-  },
-  {
-    text: "Dont watch the clock; do what it does. Keep going.",
-    author: "Steve Jobs",
-  },
-  {
-    text: "Success is not the key to happiness. Happiness is the key to success.",
-    author: "Buddha",
-  },
-  { text: "Turn your wounds into wisdom.", author: "Thomas Edison" },
-  {
-    text: "Hardships often prepare ordinary people for an extraordinary destiny.",
-    author: "Confucius",
-  },
-  {
-    text: "Dont watch the clock; do what it does. Keep going.",
-    author: "Thomas Edison",
-  },
-  {
-    text: "Believe you can and youre halfway there.",
-    author: "Walt Disney",
-  },
-  {
-    text: "Success usually comes to those who are too busy to be looking for it.",
-    author: "Buddha",
-  },
-  {
-    text: "Try to be a rainbow in someones cloud.",
-    author: "Isaac Newton",
-  },
-  {
-    text: "The only way to do great work is to love what you do.",
-    author: "Aristotle",
-  },
-  {
-    text: "What you get by achieving your goals is not as important as what you become.",
-    author: "Mark Twain",
-  },
-  { text: "The best revenge is massive success.", author: "Buddha" },
-  {
-    text: "Be yourself; everyone else is already taken.",
-    author: "Nelson Mandela",
-  },
-  { text: "If you can dream it, you can do it.", author: "Aristotle" },
-  {
-    text: "What you get by achieving your goals is not as important as what you become.",
-    author: "Bill Gates",
-  },
-  {
-    text: "In the middle of difficulty lies opportunity.",
-    author: "Confucius",
-  },
-  { text: "The best revenge is massive success.", author: "Maya Angelou" },
-  { text: "Turn your wounds into wisdom.", author: "Steve Jobs" },
-  {
-    text: "Success usually comes to those who are too busy to be looking for it.",
-    author: "J.K. Rowling",
-  },
-  {
-    text: "Success usually comes to those who are too busy to be looking for it.",
-    author: "Maya Angelou",
-  },
-  { text: "Turn your wounds into wisdom.", author: "Martin Luther King Jr." },
-  {
-    text: "Act as if what you do makes a difference. It does.",
-    author: "Thomas Edison",
-  },
-  {
-    text: "What you get by achieving your goals is not as important as what you become.",
-    author: "Maya Angelou",
-  },
-  {
-    text: "What you get by achieving your goals is not as important as what you become.",
-    author: "Confucius",
-  },
-  { text: "If you can dream it, you can do it.", author: "Rumi" },
-  { text: "The best revenge is massive success.", author: "Aristotle" },
-  {
-    text: "Try to be a rainbow in someones cloud.",
-    author: "Barack Obama",
-  },
-  {
-    text: "Dont watch the clock; do what it does. Keep going.",
-    author: "Buddha",
-  },
-  {
-    text: "Try to be a rainbow in someones cloud.",
-    author: "Stephen Hawking",
-  },
-  {
-    text: "It always seems impossible until its done.",
-    author: "Nelson Mandela",
-  },
-  {
-    text: "Success usually comes to those who are too busy to be looking for it.",
-    author: "Benjamin Franklin",
-  },
-  {
-    text: "Hardships often prepare ordinary people for an extraordinary destiny.",
-    author: "J.K. Rowling",
-  },
-  {
-    text: "Hardships often prepare ordinary people for an extraordinary destiny.",
-    author: "Maya Angelou",
-  },
-  {
-    text: "Be yourself; everyone else is already taken.",
-    author: "Mother Teresa",
-  },
-  { text: "Turn your wounds into wisdom.", author: "Rumi" },
-  {
-    text: "It always seems impossible until its done.",
-    author: "Marie Curie",
-  },
-  {
-    text: "Believe you can and youre halfway there.",
-    author: "Mother Teresa",
-  },
-  {
-    text: "It always seems impossible until its done.",
-    author: "Walt Disney",
-  },
-];
-
 export default function QuoteCard() {
   const [quote, setQuote] = useState<Quote>({ text: "", author: "" });
   const [search, setSearch] = useState("");
+  const [allQuotes, setAllQuotes] = useState<Quote[]>([]);
 
   useEffect(() => {
-    getRandomQuote();
+    fetchAllQuotes();
   }, []);
 
-  const getRandomQuote = () => {
-    const random = quotes[Math.floor(Math.random() * quotes.length)];
+  const fetchAllQuotes = async () => {
+    try {
+      const response = await fetch("https://dummyjson.com/quotes");
+      const data = await response.json();
+
+      // Map API data to Quote type
+      const formattedQuotes: Quote[] = data.quotes.map((q: any) => ({
+        text: q.quote,
+        author: q.author,
+      }));
+
+      setAllQuotes(formattedQuotes);
+      getRandomQuote(formattedQuotes);
+    } catch (error) {
+      console.error("Error fetching quotes:", error);
+      toast.error("Failed to load quotes.");
+    }
+  };
+
+  const getRandomQuote = (quotesList: Quote[] = allQuotes) => {
+    if (quotesList.length === 0) return;
+
+    const random = quotesList[Math.floor(Math.random() * quotesList.length)];
     setQuote(random);
   };
 
@@ -378,12 +54,12 @@ export default function QuoteCard() {
   };
 
   const filteredQuotes = useMemo(() => {
-    return quotes.filter(
+    return allQuotes.filter(
       (q) =>
         q.text.toLowerCase().includes(search.toLowerCase()) ||
         q.author.toLowerCase().includes(search.toLowerCase())
     );
-  }, [search]);
+  }, [search, allQuotes]);
 
   return (
     <>
@@ -464,7 +140,7 @@ export default function QuoteCard() {
             {/* Buttons */}
             <div className="flex justify-center gap-4">
               <Button
-                onClick={getRandomQuote}
+                onClick={() => getRandomQuote()}
                 className="bg-purple-600 hover:bg-purple-700 text-white"
               >
                 Generate Quote
