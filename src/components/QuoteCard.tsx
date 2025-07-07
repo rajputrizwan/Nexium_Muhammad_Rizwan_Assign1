@@ -13,24 +13,24 @@ type Quote = {
 
 const quotes: Quote[] = [
   {
-    text: "Don't watch the clock; do what it does. Keep going.",
+    text: "Dont watch the clock; do what it does. Keep going.",
     author: "Rumi",
   },
   {
-    text: "It always seems impossible until it's done.",
+    text: "It always seems impossible until its done.",
     author: "Stephen Hawking",
   },
   {
     text: "Hardships often prepare ordinary people for an extraordinary destiny.",
     author: "Bill Gates",
   },
-  { text: "Try to be a rainbow in someone's cloud.", author: "Elon Musk" },
+  { text: "Try to be a rainbow in someones cloud.", author: "Elon Musk" },
   {
     text: "Act as if what you do makes a difference. It does.",
     author: "Aristotle",
   },
   {
-    text: "It always seems impossible until it's done.",
+    text: "It always seems impossible until its done.",
     author: "Abraham Lincoln",
   },
   {
@@ -38,7 +38,7 @@ const quotes: Quote[] = [
     author: "Steve Jobs",
   },
   {
-    text: "It always seems impossible until it's done.",
+    text: "It always seems impossible until its done.",
     author: "Albert Einstein",
   },
   {
@@ -87,7 +87,7 @@ const quotes: Quote[] = [
     author: "Abraham Lincoln",
   },
   {
-    text: "Believe you can and you're halfway there.",
+    text: "Believe you can and youre halfway there.",
     author: "Nelson Mandela",
   },
   {
@@ -99,10 +99,13 @@ const quotes: Quote[] = [
     author: "Marie Curie",
   },
   {
-    text: "Don't watch the clock; do what it does. Keep going.",
+    text: "Dont watch the clock; do what it does. Keep going.",
     author: "Isaac Newton",
   },
-  { text: "Believe you can and you're halfway there.", author: "Socrates" },
+  {
+    text: "Believe you can and youre halfway there.",
+    author: "Socrates",
+  },
   { text: "The best revenge is massive success.", author: "Benjamin Franklin" },
   {
     text: "Success is not the key to happiness. Happiness is the key to success.",
@@ -169,7 +172,7 @@ const quotes: Quote[] = [
     author: "Barack Obama",
   },
   {
-    text: "Believe you can and you're halfway there.",
+    text: "Believe you can and youre halfway there.",
     author: "Albert Einstein",
   },
   {
@@ -181,7 +184,10 @@ const quotes: Quote[] = [
     author: "Elon Musk",
   },
   { text: "Turn your wounds into wisdom.", author: "Maya Angelou" },
-  { text: "It always seems impossible until it's done.", author: "Aristotle" },
+  {
+    text: "It always seems impossible until its done.",
+    author: "Aristotle",
+  },
   { text: "The best revenge is massive success.", author: "Steve Jobs" },
   {
     text: "Keep your face always toward the sunshine—and shadows will fall behind you.",
@@ -212,7 +218,7 @@ const quotes: Quote[] = [
     author: "Mother Teresa",
   },
   {
-    text: "Don't watch the clock; do what it does. Keep going.",
+    text: "Dont watch the clock; do what it does. Keep going.",
     author: "Bill Gates",
   },
   { text: "The best revenge is massive success.", author: "Walt Disney" },
@@ -229,7 +235,7 @@ const quotes: Quote[] = [
     author: "Mother Teresa",
   },
   {
-    text: "Don't watch the clock; do what it does. Keep going.",
+    text: "Dont watch the clock; do what it does. Keep going.",
     author: "Steve Jobs",
   },
   {
@@ -242,15 +248,21 @@ const quotes: Quote[] = [
     author: "Confucius",
   },
   {
-    text: "Don't watch the clock; do what it does. Keep going.",
+    text: "Dont watch the clock; do what it does. Keep going.",
     author: "Thomas Edison",
   },
-  { text: "Believe you can and you're halfway there.", author: "Walt Disney" },
+  {
+    text: "Believe you can and youre halfway there.",
+    author: "Walt Disney",
+  },
   {
     text: "Success usually comes to those who are too busy to be looking for it.",
     author: "Buddha",
   },
-  { text: "Try to be a rainbow in someone's cloud.", author: "Isaac Newton" },
+  {
+    text: "Try to be a rainbow in someones cloud.",
+    author: "Isaac Newton",
+  },
   {
     text: "The only way to do great work is to love what you do.",
     author: "Aristotle",
@@ -298,17 +310,20 @@ const quotes: Quote[] = [
   },
   { text: "If you can dream it, you can do it.", author: "Rumi" },
   { text: "The best revenge is massive success.", author: "Aristotle" },
-  { text: "Try to be a rainbow in someone's cloud.", author: "Barack Obama" },
   {
-    text: "Don't watch the clock; do what it does. Keep going.",
+    text: "Try to be a rainbow in someones cloud.",
+    author: "Barack Obama",
+  },
+  {
+    text: "Dont watch the clock; do what it does. Keep going.",
     author: "Buddha",
   },
   {
-    text: "Try to be a rainbow in someone's cloud.",
+    text: "Try to be a rainbow in someones cloud.",
     author: "Stephen Hawking",
   },
   {
-    text: "It always seems impossible until it's done.",
+    text: "It always seems impossible until its done.",
     author: "Nelson Mandela",
   },
   {
@@ -329,15 +344,15 @@ const quotes: Quote[] = [
   },
   { text: "Turn your wounds into wisdom.", author: "Rumi" },
   {
-    text: "It always seems impossible until it's done.",
+    text: "It always seems impossible until its done.",
     author: "Marie Curie",
   },
   {
-    text: "Believe you can and you're halfway there.",
+    text: "Believe you can and youre halfway there.",
     author: "Mother Teresa",
   },
   {
-    text: "It always seems impossible until it's done.",
+    text: "It always seems impossible until its done.",
     author: "Walt Disney",
   },
 ];
