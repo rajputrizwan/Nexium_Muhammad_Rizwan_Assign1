@@ -387,7 +387,7 @@ export default function QuoteCard() {
 
         {/* Description */}
         <p className="text-center text-gray-600 mb-6">
-          Discover inspiring quotes instantly. Whether you're designing,
+          Discover inspiring quotes instantly. Whether you&apos;re designing,
           presenting, or posting on social media, generate meaningful quotes
           with a single click.
         </p>
