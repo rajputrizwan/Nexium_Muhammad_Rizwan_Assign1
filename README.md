@@ -93,7 +93,7 @@ public/                   # Static files and assets
 
 ## 🌐 Deployment
 
-You can view the live app here: **[https://your-app-link.vercel.app](https://your-app-link.vercel.app)**
+You can view the live app here: **[https://nexium-muhammad-rizwan-quote-genera.vercel.app/](https://nexium-muhammad-rizwan-quote-genera.vercel.app/)**
 
 > Replace the above link with your actual deployment URL.
 
