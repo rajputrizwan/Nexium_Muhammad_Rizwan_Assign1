@@ -95,8 +95,6 @@ public/                   # Static files and assets
 
 You can view the live app here: **[https://nexium-muhammad-rizwan-quote-genera.vercel.app/](https://nexium-muhammad-rizwan-quote-genera.vercel.app/)**
 
-> Replace the above link with your actual deployment URL.
-
 ## 📄 License
 
 This project is built for **educational purposes only**.
