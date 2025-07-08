@@ -32,7 +32,7 @@ A simple and elegant web application to generate random motivational quotes, bui
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/rajputrizwan/Nexium_Muhammad_Rizwan_Assign1.git
    cd Nexium_Muhammad_Rizwan_Assign1
    ```
 
